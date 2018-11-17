@@ -3,7 +3,7 @@ const client = new Discord.Client();
 const prefix = "!";
 
 client.on('ready', () => {
-     client.user.setActivity(" !help buder bot",{type: 'WATCHING'})
+     client.user.setActivity(" !help l !inv ",{type: 'WATCHING'})
 
 });
 
